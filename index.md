@@ -1,5 +1,5 @@
 ---
-title: Dale H. Emery on GitHub
+title: dhemery on GitHub
 layout: page
 ---
 
