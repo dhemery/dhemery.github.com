@@ -1,0 +1,18 @@
+---
+title: Main Projects
+---
+
+{% for project in site.data.projects %}
+<section>
+  <header>
+    <h1>{{ project.title }}</h1>
+    <p>{{ project.description }}</p>
+  </header>
+  <ul>
+    {% for link in project.links %}
+    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+    <li><a href="https://github.com/dhemery/{{ project.repository }}/">Source ({{ project.language }})</a></li>
+  </ul>
+</section>
+{% endfor %}

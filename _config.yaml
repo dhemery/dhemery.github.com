@@ -1,0 +1,9 @@
+title: dhemery
+subtitle: On GitHub
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"

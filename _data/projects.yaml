@@ -1,0 +1,21 @@
+- title: Expression Kit
+  description: Expressive methods to compose conditions, evaluate them, and act on the results.
+  repository: expression-kit
+  language: Java
+  links:
+    -
+      title: Home
+      url: https://expression-kit.dhemery.com/
+    -
+      title: API (1.0-SNAPSHOT)
+      url: https://expression-kit.dhemery.com/1.0-SNAPSHOT/api
+
+- title: Rivener
+  description: Read Scrivener files in Ruby.
+  repository: rivener
+  language: Ruby
+
+- title: DHEpub
+  description: Compile Epub files in Ruby using markdown and YAML.
+  repository: dhepub
+  language: Ruby
